@@ -31,7 +31,7 @@ function countdown() {
     timeLeft.textContent = currentTime;
 
     if (difficulty === 'hard') {
-        const dynamicInterval = Math.max(100, 1000 - (60 - currentTime) * 14); // 60 - currentTime = secondi trascorsi
+        const dynamicInterval = Math.max(100, 1000 - (60 - currentTime) * 14);
         moveEmoji(dynamicInterval);
     }
 
@@ -70,5 +70,4 @@ function startGame() {
     countdownTimerId = setInterval(countdown, 1000);
 }
 
-// Avvia il gioco dopo una piccola attesa per permettere la selezione della difficoltà
 setTimeout(startGame, 1000);

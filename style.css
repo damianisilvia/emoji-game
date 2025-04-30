@@ -56,7 +56,14 @@ body {
     margin: 16px;
     background-color: rgb(60, 60, 60);
 }
+.emoji {
+    background-color: yellow;
+    content: '😀';
+}
 
+.emoji::before {
+    content: '😀';
+}
 .emoji {
     background-image: url("https://w7.pngwing.com/pngs/407/764/png-transparent-yellow-smiley-emoji-emoji-computer-icons-emoticon-sunglasses-emoji-smiley-sticker-glasses.png");
     background-position: center;
