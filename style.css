@@ -62,3 +62,12 @@ body {
     background-position: center;
     background-size: cover;
 }
+.difficulty-selector {
+    text-align: center;
+    margin: 20px;
+}
+
+#difficulty {
+    font-size: 1rem;
+    padding: 5px;
+}
